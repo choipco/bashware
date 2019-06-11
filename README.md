@@ -16,3 +16,6 @@ alias ll='ls -la'
 ## UNIX Tools
 cal
 
+## grep colors ##
+export GREP_OPTIONS='--color=auto'
+
