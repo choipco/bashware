@@ -19,3 +19,8 @@ cal
 ## grep colors ##
 export GREP_OPTIONS='--color=auto'
 
+### WIP Collation ###
+
+## Apply fuzzy logic at the command line 
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
