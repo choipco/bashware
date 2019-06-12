@@ -25,3 +25,8 @@ export CLICOLOR=1
 ## Apply fuzzy logic at the command line 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+
+
+### UNIX COMMANDS FOR CODEBASES ANALYSIS ###
+
+find . -name "Docker*" | xargs -I {} echo {}
