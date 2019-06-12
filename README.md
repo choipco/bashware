@@ -18,6 +18,7 @@ cal
 
 ## grep colors ##
 export GREP_OPTIONS='--color=auto'
+export CLICOLOR=1
 
 ### WIP Collation ###
 
