@@ -30,3 +30,7 @@ export CLICOLOR=1
 ### UNIX COMMANDS FOR CODEBASES ANALYSIS ###
 
 find . -name "Docker*" | xargs -I {} echo {}
+
+find . -iname 'Docker*' | xargs -I {} cp -rf {} test_cp_dir
+
+find . -iname 'Docker*' | xargs -I {} mv -rf {} test_mv_dir
